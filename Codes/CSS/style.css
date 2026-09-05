@@ -9,6 +9,10 @@
     "wdth" 100;
 }
  /* Shared Styles */
+ .secondary-bg{
+    background-color: #FFF8F3;
+
+ }
 
  .text-primary{
     color: #FD6E0A;
@@ -25,6 +29,17 @@
     border-radius: 5px;
     border: none;
  }
+ .section-title{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+ }
+ .section-description{
+    font-size: 18px;
+    color: #757575;
+ }
+
+ /* --------------- */
 
  .header{
     background-image: url(/images/developer.png), url(/images/header_bg.png);
@@ -73,4 +88,35 @@ nav li a{
 }
 .banner-img{
     width: 580px;
+}
+/* --------------------- */
+
+/* Main section design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ------------- */
+
+/* About me section design starts from here */
+.about{
+    /* background-color: #FFF8F3; */
+    margin-top: 130px;
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.item-title{
+    font-size: 20px;
 }
