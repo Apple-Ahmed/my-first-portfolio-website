@@ -140,3 +140,31 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+
+
+/* Resume Section Starts from Here */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.resume hr{
+    /* margin-top: 30px; */
+    margin: 30px 0px;
+}
+.download-cv-btn{
+    margin-top: 50px;
+}
+.section-title{
+    margin: 130px 0px;
+}
+.resume-column-title{
+    margin-bottom: 30px;
+}
