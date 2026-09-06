@@ -168,3 +168,31 @@ main section{
 .resume-column-title{
     margin-bottom: 30px;
 }
+
+/* Footer section design Starts from here */
+footer{
+}
+.footer-container{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    column-gap: 117px;
+}
+.footer-column{
+    width: 50%;
+    margin-top: 28px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-submit-btn{
+    margin-top: 24px;
+}
